@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+}
+.body{
+    background-color: black;
+    width: 1000px;
+    height: 750px;
+}
+.main{
+    text-align: center;
+    background-color: rgb(16, 144, 16);
+    width: 600px;
+    color: white;
+    height: 750px;
+}
+#space{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXBSj-22PJcPfLDhESL9CD1Ek5T0RsTpXuAQ&s");
+    background-size: cover;
+    animation: movement infinite;
+}
+@keyframes movement{
+    0%{
+        left: 0px;
+        top: 0px;
+    }
+    5%{
+        left: 300px;
+        top: 200px;
+    }
+    10%{
+        left: 500px;
+        top: 100px;
+    }
+    15%{
+        left: 200px;
+        top: 300px;
+    }
+    20%{
+        left: 100px;
+        top: 0px;
+    }
+    25%{
+        left: 600px;
+        top: 200px;
+    }
+    30%{
+        left: 600px;
+        top: 100px;
+    }
+    35%{
+        left: 100px;
+        top: 500px;
+    }
+    40%{
+        left: 0px;
+        top: 600px;
+    }
+    45%{
+        left: 600px;
+        top: 600px;
+    }
+    50%{
+        left: 300px;
+        top: 200px;
+    }
+    55%{
+        left: 600px;
+        top: 100px;
+    }
+    60%{
+        left: 800px;
+        top: 600px;
+    }
+    65%{
+        left: 600px;
+        top: 100px;
+    }
+    70%{
+        left: 300px;
+        top: 600px;
+    }
+    75%{
+        left: 600px;
+        top: 400px;
+    }
+    80%{
+        left: 100px;
+        top: 0px;
+    }
+    85%{
+        left: 600px;
+        top: 200px;
+    }
+    90%{
+        left: 100px;
+        top: 500px;
+    }
+    95%{
+        left: 0px;
+        top: 600px;
+    }
+    100%{
+        left: 600px;
+        top: 200px;
+    }
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+button{
+    margin-top: 20px;
+    height: 30px;
+    width: 70px;
+    border-color: white;
+    border-radius: 16px;
+    background-color: rgb(16, 144, 16);
+    color: white;
+}
+#score{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#sc{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
